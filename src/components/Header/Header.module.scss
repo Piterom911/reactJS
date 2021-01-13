@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    background: #fff;
+    padding: 10px 20px;
+
+    .logo {
+        width: 200px;
+    }
+
+    .nav {
+        .list {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .item {
+                padding: 15px;
+
+                .link {
+                    color: rgb(31, 177, 92);
+                    text-decoration: none;
+                    font-weight: bold;
+                    font-size: 18px;
+
+                    &:hover {
+                        color:rgb(184, 118, 214);
+                    }
+
+                    &.active {
+                        color: rgb(174, 0, 255);
+                    }
+                }
+            }
+        }
+    }
+
+    .tel {
+        font-weight: bold;
+        color:rgb(31, 177, 92);
+
+        &:hover {
+            color:rgb(184, 118, 214);
+        }
+    }
+}
